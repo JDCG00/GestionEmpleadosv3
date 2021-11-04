@@ -9,5 +9,9 @@
         case 'a':
             header("Location:alta.php");
             break;
+        case 'c_dni':
+            header("Location:consultar.php");
+        case 'c_nombre':
+            header("Location:consultar3.php");
     }
 ?>

@@ -1,3 +1,49 @@
-#plus{
-    width: 3%;
+header{
+    text-align: center;
+    background-color: #97D077;
+    width: 54.27%;
+    height: 80px;
+}
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+    width: 85%;
+}
+.negrita{
+    font-weight: bold;
+    font-size: 18px;
+}
+nav{
+    background-color: #EA6B66;
+    width: 54.27%;
+    height: 80px;
+}
+main{
+    background-color: #7EA6E0;
+    width: 54.27%;
+    height: 480px;
+}
+aside{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #FFD966;
+    width: 18.55%;
+    height: 440px;
+}
+article{
+    float: left;
+    margin-top: 20px;
+    background-color: #FFA500;
+    width: 78.13%;
+    height: 440px;
+}
+footer
+{
+    background-color: #6700CF;
+    width: 54.27%;
+    height: 80px;
 }

@@ -14,9 +14,9 @@
     <nav></nav>
     <main>
         <aside class="centrar">
-            <div class="div1">
-                <a href="php/operaciones.php?op=a"><input type="button" name="añadir" value="Añadir"></a>&nbsp;&nbsp;
-                <a href="php/operaciones.php?op=c_dni"><input type="button" name="consultar_dni" value="Consultar DNI"></a>&nbsp;&nbsp;
+            <div class="div1 centrar2">
+                <a href="php/operaciones.php?op=a"><input type="button" name="añadir" value="Añadir"></a><br><br><br>
+                <a href="php/operaciones.php?op=c_dni"><input type="button" name="consultar_dni" value="Consultar DNI"></a><br><br><br>
                 <a href="php/operaciones.php?op=c_nombre"><input type="button" name="consultar_nombre" value="Consultar Nombre"></a>
             </div>            
         </aside>

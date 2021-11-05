@@ -25,7 +25,7 @@
             if(!$_POST){
                 formulario1();
             }else{                    
-                $consulta = "SELECT * FROM empleados WHERE DNI = '".$_POST['dni']."';";
+                $consulta = "SELECT * FROM empleados WHERE DNI = '".$_POST['dni']."'";
                 $resultado = $conexion->query($consulta);
                 while ($fila = $resultado->fetch_assoc()) {
                     echo 'IdEmpleados: ' .$fila['IdEmpleados']. '<br/>';

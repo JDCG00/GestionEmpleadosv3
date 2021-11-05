@@ -11,7 +11,9 @@
             break;
         case 'c_dni':
             header("Location:consultar.php");
+            break;
         case 'c_nombre':
             header("Location:consultar3.php");
+            break;
     }
 ?>

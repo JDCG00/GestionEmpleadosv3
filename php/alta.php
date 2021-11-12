@@ -26,7 +26,7 @@
             if ($_POST) {
                 $consulta = "INSERT INTO  empleados (DNI, Nombre, Correo, Tlfn) VALUES('".$_POST['dni']."','".$_POST['nombre']."','".$_POST['correo']."','".$_POST['telefono']."');";
                 $resultado = $conexion->query($consulta);
-            }                      
+            }                    
         ?>
     </body>
 </html>

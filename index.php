@@ -26,7 +26,7 @@
                     <label for="baja"><span class="negrita">Usuarios mostrados: </span></label><br><br>     
                     <?php
                         $consulta = "SELECT IdEmpleados, Nombre, DNI FROM empleados ";
-                        $resultado = $conexion->query($consulta); 
+                        $resultado = $conexion->query($consulta);
                         while ($fila = $resultado->fetch_assoc()) {
                             $id = $fila['IdEmpleados'];
                             $nombre = $fila['Nombre'];
